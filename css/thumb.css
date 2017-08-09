@@ -1,0 +1,76 @@
+/**
+*
+*   WP Category Thumbnail
+*
+**/
+.wpct-wrap {
+  overflow: hidden;
+  border: 1px solid #CCC;
+}
+
+ul.wpct {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+ul.wpct li {
+  padding: 0;
+  margin: 5px;
+  float: left;
+  display: block;
+}
+
+.wpct-wrap .cat-img {
+  display: block;
+}
+
+.wpct-wrap .wpct-box {
+  padding: 0;
+  float: left;
+  position: relative;
+  z-index: 1000;
+  color: #000;
+  background-color: #FFF;
+  overflow: hidden;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+div.wpct-box a.overlay {
+  display: block;
+  position: absolute;
+  outline:none;
+  background: none;
+}
+
+div.wpct-box-content h2 {
+  padding: 0;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+div.wpct-box-content {
+  padding: 0px;
+  margin: 10px;
+}
+
+div.wpct-box-content span.thumb-date,
+div.wpct-box-content span.comment-num {
+  display: inline-block;
+  font-style: italic;
+  margin-bottom: 4px;
+}
+
+div.wpct-box-content span.comment-num {
+  float: right;
+}
+
+div.wpct-box-content p {
+  margin-bottom: 5px;
+}
+
+div.error {
+  padding: 4px 5px;
+  text-align: center;
+}
